@@ -1,7 +1,7 @@
 defmodule ClearSettleEngineSchemas.Account do
   use Ecto.Schema
 
-  alias ClearSettleEngineSchemas.{Partitipant}
+  alias ClearSettleEngineSchemas.{Participant}
 
   schema "accounts" do
     field(:account_number, :string)
