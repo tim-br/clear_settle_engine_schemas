@@ -1,4 +1,4 @@
-defmodule ClearSettleEngine.Trade do
+defmodule ClearSettleEngineSchemas.Trade do
   use Ecto.Schema
 
   schema "trades" do

@@ -1,4 +1,4 @@
-defmodule ClearSettleEngine.Participant do
+defmodule ClearSettleEngineSchemas.Participant do
   use Ecto.Schema
 
   schema "participants" do

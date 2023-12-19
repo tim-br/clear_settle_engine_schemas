@@ -1,4 +1,4 @@
-defmodule ClearSettleEngine.Security do
+defmodule ClearSettleEngineSchemas.Security do
   use Ecto.Schema
 
   schema "securities" do

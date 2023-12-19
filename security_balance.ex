@@ -1,4 +1,4 @@
-defmodule ClearSettleEngine.SecurityBalance do
+defmodule ClearSettleEngineSchemas.SecurityBalance do
   use Ecto.Schema
   import Ecto.Changeset
 

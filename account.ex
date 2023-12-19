@@ -1,4 +1,4 @@
-defmodule ClearSettleEngine.Account do
+defmodule ClearSettleEngineSchemas.Account do
   use Ecto.Schema
 
   schema "accounts" do
