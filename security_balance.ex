@@ -1,11 +1,12 @@
 defmodule ClearSettleEngineSchemas.SecurityBalance do
   use Ecto.Schema
   import Ecto.Changeset
+  alias ClearSettleEngineSchemas.{Account, Security}
 
   schema "security_balances" do
     field(:balance, :integer)
-    belongs_to(:account, ClearSettleEngine.Account)
-    belongs_to(:security, ClearSettleEngine.Security)
+    belongs_to(:account, Account)
+    belongs_to(:security, Security)
     timestamps()
   end
 

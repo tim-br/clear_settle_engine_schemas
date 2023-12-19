@@ -3,7 +3,6 @@ defmodule ClearSettleEngineSchemas.Security do
 
   schema "securities" do
     field(:security_id, :string)
-    # Add other fields if necessary
     timestamps()
   end
 end
