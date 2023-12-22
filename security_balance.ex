@@ -21,7 +21,7 @@ defmodule ClearSettleEngineSchemas.SecurityBalance do
       # Prepare a map with the required fields
       map = %{
         # Assuming 'name' is the field you want from Account
-        account_name: account.name,
+        account_number: account_number,
         security_id: security.id,
         balance: balance
       }
