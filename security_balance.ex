@@ -3,7 +3,7 @@ defmodule ClearSettleEngineSchemas.SecurityBalance do
   import Ecto.Changeset
   alias ClearSettleEngineSchemas.{Account, Security}
 
-  @derive {Jason.Encoder}
+  @derive {Jason.Encoder, []}
   schema "security_balances" do
     field(:balance, :integer)
     belongs_to(:account, Account)
