@@ -1,0 +1,1 @@
+For use cases, please view [Clear Settle Engine repository on GitHub](https://github.com/tim-br/clear_settle_engine) and [Clear Settle Admin GitHub repository](https://github.com/tim-br/clear_settle_admin).
