@@ -15,18 +15,4 @@ defmodule ClearSettleEngineSchemas.SecurityBalance do
     |> cast(attrs, [:balance])
     |> validate_required([:balance])
   end
-
-  defimpl Jason.Encoder, for: ClearSettleEngineSchemas.SecurityBalance do
-    def encode(%{account: account, security: security, balance: balance} = security_balance, opts) do
-      # Prepare a map with the required fields
-      map = %{
-        # Assuming 'name' is the field you want from Account
-        account_number: account.account_number,
-        security_id: security.id,
-        balance: balance
-      }
-
-      Jason.Encode.map(map, opts)
-    end
-  end
 end
